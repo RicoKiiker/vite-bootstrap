@@ -3,4 +3,12 @@
 }
 .card{
     background-color: lightcoral !important;
-}
+ }
+ .header{
+    background-color: red !important;
+ }
+ .ul{
+    align-items: right;
+
+    
+     } 
