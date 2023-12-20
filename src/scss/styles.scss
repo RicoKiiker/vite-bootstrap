@@ -1,21 +1,20 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
-
 //siin defineerin enda värvieelistused
 $primary: $indigo;
 $secondary: #F2E911;
-
 //Selleks, et need värvid ka kasutusele võetaks
 //defineerin nad ka %theme-colors massiiviks
-$theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-);
-
-$brand: (
-    "brand": #900
-);
+$theme-colors: ( "primary": $primary, "secondary": $secondary, );
+$brand: ( "brand": #900);
 $theme-colors: map-merge($theme-colors, $brand);
-
 @import "bootstrap/scss/bootstrap";
+img {
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+img {
+    aspect-ratio: 32/23;
+}
